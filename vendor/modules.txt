@@ -566,13 +566,6 @@ github.com/exponent-io/jsonpath
 github.com/fatih/camelcase
 # github.com/felixge/httpsnoop v1.0.1
 github.com/felixge/httpsnoop
-# github.com/flannel-io/flannel v0.19.2
-github.com/flannel-io/flannel/backend
-github.com/flannel-io/flannel/pkg/ip
-github.com/flannel-io/flannel/pkg/mac
-github.com/flannel-io/flannel/pkg/powershell
-github.com/flannel-io/flannel/pkg/routing
-github.com/flannel-io/flannel/subnet
 # github.com/form3tech-oss/jwt-go v3.2.3+incompatible
 github.com/form3tech-oss/jwt-go
 # github.com/fsnotify/fsnotify v1.4.9
@@ -1279,7 +1272,7 @@ github.com/vmware/govmomi/vim25/types
 github.com/vmware/govmomi/vim25/xml
 # github.com/xiang90/probing v0.0.0-20190116061207-43a291ad63a2
 github.com/xiang90/probing
-# github.com/xiaomaojames/flannel-io v0.19.10
+# github.com/xiaomaojames/flannel-io v0.19.14
 ## explicit
 github.com/xiaomaojames/flannel-io/backend
 github.com/xiaomaojames/flannel-io/backend/extension
@@ -1289,6 +1282,9 @@ github.com/xiaomaojames/flannel-io/backend/vxlan
 github.com/xiaomaojames/flannel-io/backend/wireguard
 github.com/xiaomaojames/flannel-io/network
 github.com/xiaomaojames/flannel-io/pkg/ip
+github.com/xiaomaojames/flannel-io/pkg/mac
+github.com/xiaomaojames/flannel-io/pkg/powershell
+github.com/xiaomaojames/flannel-io/pkg/routing
 github.com/xiaomaojames/flannel-io/subnet
 github.com/xiaomaojames/flannel-io/subnet/kube
 # github.com/xlab/treeprint v0.0.0-20181112141820-a009c3971eca
