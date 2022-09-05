@@ -21,19 +21,19 @@ import (
 	"path/filepath"
 	"sync"
 
-	"github.com/flannel-io/flannel/backend"
-	"github.com/flannel-io/flannel/network"
-	"github.com/flannel-io/flannel/pkg/ip"
-	"github.com/flannel-io/flannel/subnet/kube"
 	"github.com/sirupsen/logrus"
+	"github.com/xiaomaojames/flannel-io/backend"
+	"github.com/xiaomaojames/flannel-io/network"
+	"github.com/xiaomaojames/flannel-io/pkg/ip"
+	"github.com/xiaomaojames/flannel-io/subnet/kube"
 	"golang.org/x/net/context"
 
 	// Backends need to be imported for their init() to get executed and them to register
-	_ "github.com/flannel-io/flannel/backend/extension"
-	_ "github.com/flannel-io/flannel/backend/hostgw"
-	_ "github.com/flannel-io/flannel/backend/ipsec"
-	_ "github.com/flannel-io/flannel/backend/vxlan"
-	_ "github.com/flannel-io/flannel/backend/wireguard"
+	_ "github.com/xiaomaojames/flannel-io/backend/extension"
+	_ "github.com/xiaomaojames/flannel-io/backend/hostgw"
+	_ "github.com/xiaomaojames/flannel-io/backend/ipsec"
+	_ "github.com/xiaomaojames/flannel-io/backend/vxlan"
+	_ "github.com/xiaomaojames/flannel-io/backend/wireguard"
 )
 
 const (
