@@ -21,11 +21,11 @@ import (
 	"time"
 
 	"github.com/Microsoft/hcsshim"
-	"github.com/pkg/errors"
 	"github.com/xiaomaojames/flannel-io/backend"
 	"github.com/xiaomaojames/flannel-io/pkg/ip"
 	"github.com/xiaomaojames/flannel-io/pkg/routing"
 	"github.com/xiaomaojames/flannel-io/subnet"
+	"github.com/pkg/errors"
 	"golang.org/x/net/context"
 	"k8s.io/apimachinery/pkg/util/json"
 	"k8s.io/apimachinery/pkg/util/wait"

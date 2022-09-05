@@ -1243,8 +1243,8 @@ github.com/vmware/govmomi v0.20.3 h1:gpw/0Ku+6RgF3jsi7fnCLmlcikBHfKBCUcu1qgc16OU
 github.com/vmware/govmomi v0.20.3/go.mod h1:URlwyTFZX72RmxtxuaFL2Uj3fD1JTvZdx59bHWk6aFU=
 github.com/xiang90/probing v0.0.0-20190116061207-43a291ad63a2 h1:eY9dn8+vbi4tKz5Qo6v2eYzo7kUS51QINcR5jNpbZS8=
 github.com/xiang90/probing v0.0.0-20190116061207-43a291ad63a2/go.mod h1:UETIi67q53MR2AWcXfiuqkDkRtnGDLqkBTpCHuJHxtU=
-github.com/xiaomaojames/flannel-io v0.19.14 h1:USebfprBPSU7fIjFEYU0RdfCzZvD6Sz/3Dw3XRmKnMQ=
-github.com/xiaomaojames/flannel-io v0.19.14/go.mod h1:Z8Ymepjp03EDc4RvKfVrxalF0OrVQJqc+8tazcNo6H4=
+github.com/xiaomaojames/flannel-io v0.18.101 h1:u6mgZUKSnnKDr0+0dk6XTjGzicONmwtxhI/ikwyTeuY=
+github.com/xiaomaojames/flannel-io v0.18.101/go.mod h1:EcE3l/3zzFaAtj5zEOsFi5QIO0sB9vcgJLMOerYXvXY=
 github.com/xlab/treeprint v0.0.0-20181112141820-a009c3971eca h1:1CFlNzQhALwjS9mBAUkycX616GzgsuYUOCHA5+HSlXI=
 github.com/xlab/treeprint v0.0.0-20181112141820-a009c3971eca/go.mod h1:ce1O1j6UtZfjr22oyGxGLbauSBp2YVXpARAosm7dHBg=
 github.com/xordataexchange/crypt v0.0.3-0.20170626215501-b2862e3d0a77/go.mod h1:aYKd//L2LvnjZzWKhF00oedf4jCCReLcmhLdhm1A27Q=

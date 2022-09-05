@@ -7,7 +7,7 @@
 // you may not use this file except in compliance with the License.
 // You may obtain a copy of the License at
 //
-//	http://www.apache.org/licenses/LICENSE-2.0
+//     http://www.apache.org/licenses/LICENSE-2.0
 //
 // Unless required by applicable law or agreed to in writing, software
 // distributed under the License is distributed on an "AS IS" BASIS,
@@ -140,7 +140,7 @@ func (be *WireguardBackend) RegisterNetwork(ctx context.Context, wg *sync.WaitGr
 			if err != nil {
 				return nil, err
 			}
-			publicKey = v6Dev.attrs.publicKey.String()
+			publicKey = dev.attrs.publicKey.String()
 		}
 	} else if cfg.Mode == Auto || cfg.Mode == Ipv4 || cfg.Mode == Ipv6 {
 		dev, err = createWGDev(ctx, wg, "flannel-wg", cfg.PSK, &keepalive, cfg.ListenPort, be.extIface.Iface.MTU)

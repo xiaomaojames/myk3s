@@ -1272,7 +1272,7 @@ github.com/vmware/govmomi/vim25/types
 github.com/vmware/govmomi/vim25/xml
 # github.com/xiang90/probing v0.0.0-20190116061207-43a291ad63a2
 github.com/xiang90/probing
-# github.com/xiaomaojames/flannel-io v0.19.14
+# github.com/xiaomaojames/flannel-io v0.18.101
 ## explicit
 github.com/xiaomaojames/flannel-io/backend
 github.com/xiaomaojames/flannel-io/backend/extension

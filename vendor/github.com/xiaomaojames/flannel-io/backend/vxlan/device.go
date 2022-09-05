@@ -23,9 +23,9 @@ import (
 	"syscall"
 
 	"github.com/containernetworking/plugins/pkg/utils/sysctl"
-	"github.com/vishvananda/netlink"
 	"github.com/xiaomaojames/flannel-io/pkg/ip"
 	"github.com/xiaomaojames/flannel-io/pkg/mac"
+	"github.com/vishvananda/netlink"
 	log "k8s.io/klog"
 )
 

@@ -19,6 +19,7 @@ package wireguard
 import (
 	"errors"
 	"fmt"
+	"io/ioutil"
 	"net"
 	"os"
 	"path/filepath"
@@ -99,7 +100,7 @@ func (devAttrs *wgDeviceAttrs) setupKeys(psk string) error {
 			return fmt.Errorf("could not write key file: %w", err)
 		}
 	} else {
-		data, err := os.ReadFile(keyFile)
+		data, err := ioutil.ReadFile(keyFile)
 		if err != nil {
 			return err
 		}
@@ -127,7 +128,7 @@ func newWGDevice(devAttrs *wgDeviceAttrs, ctx context.Context, wg *sync.WaitGrou
 	// Create network device
 	la := netlink.LinkAttrs{
 		Name: devAttrs.name,
-		MTU:  devAttrs.MTU - overhead,
+		MTU:  devAttrs.MTU,
 	}
 	link := &netlink.GenericLink{LinkAttrs: la, LinkType: "wireguard"}
 

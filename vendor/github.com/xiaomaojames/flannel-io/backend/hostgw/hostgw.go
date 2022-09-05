@@ -23,8 +23,8 @@ import (
 
 	"github.com/xiaomaojames/flannel-io/backend"
 	"github.com/xiaomaojames/flannel-io/pkg/ip"
-	"github.com/vishvananda/netlink"
 	"github.com/xiaomaojames/flannel-io/subnet"
+	"github.com/vishvananda/netlink"
 	"golang.org/x/net/context"
 )
 
